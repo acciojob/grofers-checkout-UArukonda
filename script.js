@@ -23,6 +23,7 @@ const getSum = () => {
   const table = document.querySelector("table");
 
   totalTh.classList.add = "item";
+  total.classList.add = "prices";
   table.appendChild(totalRow);
   
 };
