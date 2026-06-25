@@ -21,6 +21,8 @@ const getSum = () => {
   totalRow.appendChild(total);
 
   const table = document.querySelector("table");
+	totalTh.id = "total-row";
+	total.id="ans"
 
   totalTh.classList.add = "item";
   total.classList.add = "prices";
